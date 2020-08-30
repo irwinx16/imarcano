@@ -3,21 +3,21 @@ import React from "react";
 export const ResumePage = () => {
   return (
     <div className="container">
-      <div class="row mt-5">
-        <div class="col-sm-12">
-          <h1 class="display-4">Irwin Marcano</h1>
+      <div className="row mt-5">
+        <div className="col-sm-12">
+          <h1 className="display-4">Irwin Marcano</h1>
           <hr />
-          <h3 class="lead">Web Developer</h3>
+          <h3 className="lead">Web Developer</h3>
         </div>
       </div>
-      <div class="row mt-3">
-        <div class="col-sm-12 col-md-4">
+      <div className="row mt-3">
+        <div className="col-sm-12 col-md-4">
           <h3>
             Skills
             <hr />
           </h3>
           <p>
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
               <li>Python, Django, Ruby,</li>
               <li>Rails, JavaScript, VueJs,</li>
               <li>NodeJs, ExpressJs, AWS,</li>
@@ -27,27 +27,27 @@ export const ResumePage = () => {
               <li>Bilingual (Spanish)</li>
             </ul>
           </p>
-          <h3 class="mt-5">
+          <h3 className="mt-5">
             Education
             <hr />
           </h3>
           <p>
-            <span class="font-weight-bold">General Assembly</span> <br />
+            <span className="font-weight-bold">General Assembly</span> <br />
             <span>Web Development Immersive Certificate</span> <br />
-            <span class="font-weight-lighter small">Mar 2018 - Jun 2018</span>
+            <span className="font-weight-lighter small">Mar 2018 - Jun 2018</span>
           </p>
           <p>
-            <span class="font-weight-bold">Harry S. Truman College</span> <br />
+            <span className="font-weight-bold">Harry S. Truman College</span> <br />
             <span>Adult Education Coursework</span> <br />
-            <span class="font-weight-lighter small">Nov 2016 - Dec 2017</span>
+            <span className="font-weight-lighter small">Nov 2016 - Dec 2017</span>
           </p>
           <p>
-            <span class="font-weight-bold">Rodolfo Loero Arismendi Institute of Technology</span> <br />
+            <span className="font-weight-bold">Rodolfo Loero Arismendi Institute of Technology</span> <br />
             <span>Human Resources Management Associates Degree</span> <br />
-            <span class="font-weight-lighter small">Sep 2010 - May 2014</span>
+            <span className="font-weight-lighter small">Sep 2010 - May 2014</span>
           </p>
         </div>
-        <div class="col-sm-12 col-md-8">
+        <div className="col-sm-12 col-md-8">
           <h3>
             Summary
             <hr />
@@ -56,13 +56,13 @@ export const ResumePage = () => {
             Technology enthusiast with over seven years of professional experience. I transitioned into Web Development two years ago. My experience has focused on: web development tools and best practices, Front-End and Back-End technologies,
             object-oriented programming, problem-solving and researching. I’d love to explore new ways technology can be used to improve the world and collaborate with others to make it happen.
           </p>
-          <h3 class="mt-5">
+          <h3 className="mt-5">
             Experience
             <hr />
           </h3>
           <p>
-            <span class="font-weight-bold">Freelance Web Development,​</span> <span class="font-italic">​Web Developer</span> <br />
-            <span class="font-weight-lighter small">Feb 2019 - Present | Chicago, IL.</span>
+            <span className="font-weight-bold">Freelance Web Development,​</span> <span className="font-italic">​Web Developer</span> <br />
+            <span className="font-weight-lighter small">Feb 2019 - Present | Chicago, IL.</span>
           </p>
           <p>
             <ul>
@@ -70,12 +70,12 @@ export const ResumePage = () => {
               <li>Developed mobile responsive websites using HTML, CSS, Bootstrap, and Javascript. Knowledge of VueJs for Web Apps, deployment to Github, and use of Gulp to make development easier</li>
             </ul>
           </p>
-          <p class="mt-4">
-            <span class="font-weight-bold">General Assembly,​ </span> <span class="font-italic">​Web Development Course</span> <br />
-            <span class="font-weight-lighter small">March 2018 - June 2018 | Chicago, IL.</span>
+          <p className="mt-4">
+            <span className="font-weight-bold">General Assembly,​ </span> <span className="font-italic">​Web Development Course</span> <br />
+            <span className="font-weight-lighter small">March 2018 - June 2018 | Chicago, IL.</span>
           </p>
           <p>
-            <span class="font-weight-bold">Parking App | Check for Parking Restrictions</span>
+            <span className="font-weight-bold">Parking App | Check for Parking Restrictions</span>
           </p>
           <p>
             <ul>
@@ -85,12 +85,12 @@ export const ResumePage = () => {
               <li>Deployed application using Heroku</li>
             </ul>
           </p>
-          <p class="mb-3">
-            <span class="font-weight-bold">Technologies used:</span> <br />
+          <p className="mb-3">
+            <span className="font-weight-bold">Technologies used:</span> <br />
             NodeJS, ExpressJS, MongoDB, JavaScript, HTML, Bootstrap, CSS
           </p>
           <p>
-            <span class="font-weight-bold">EMS | Schedule and Manage your employees</span>
+            <span className="font-weight-bold">EMS | Schedule and Manage your employees</span>
           </p>
           <p>
             <ul>
@@ -100,8 +100,8 @@ export const ResumePage = () => {
               <li>Deployed application using Heroku</li>
             </ul>
           </p>
-          <p class="mb-5">
-            <span class="font-weight-bold">Technologies used:</span> <br />
+          <p className="mb-5">
+            <span className="font-weight-bold">Technologies used:</span> <br />
             Ruby, Sinatra, PostgreSQL, JavaScript, React, HTML, Bootstrap, Git
           </p>
         </div>
