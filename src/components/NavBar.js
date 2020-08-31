@@ -19,11 +19,11 @@ export const NavBar = () => {
                   Resume
                 </Link>
               </li>
-              <Link to="/contact" className="nav-item">
-                <a className="nav-link disable" href="" tabindex="-1">
+              <li className="nav-item">
+                <Link to="/contact" className="nav-link disabled">
                   Contact
-                </a>
-              </Link>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

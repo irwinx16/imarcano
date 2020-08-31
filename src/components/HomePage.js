@@ -44,16 +44,16 @@ export const HomePage = () => {
 
           <div className="row justify-content-around">
             <a href="https://github.com/irwinx16" target="_black">
-              <img src="https://docs.google.com/uc?id=1qenoe8B7YbccuDpLAmO312lxnVhy21s1" className="w-75" />
+              <img src="https://docs.google.com/uc?id=1qenoe8B7YbccuDpLAmO312lxnVhy21s1" className="w-75" alt="github_icon" />
             </a>
             <a href="https://www.linkedin.com/in/irwinx16/" target="_black">
-              <img src="https://docs.google.com/uc?id=1DKGdcSWxeKopkfW_jeppr8xhrPbQW5BO" className="w-75" />
+              <img src="https://docs.google.com/uc?id=1DKGdcSWxeKopkfW_jeppr8xhrPbQW5BO" className="w-75" alt="linkedin_icon" />
             </a>
             <a href="mailto:irgranados16@gmail.com?subject=Interview Request - <POSITION>" target="_black">
-              <img src="https://docs.google.com/uc?id=1XoFHduV6hfyasUBGMGYBNBQr6jXNnC_p" className="w-75" />
+              <img src="https://docs.google.com/uc?id=1XoFHduV6hfyasUBGMGYBNBQr6jXNnC_p" className="w-75" alt="email_icon" />
             </a>
             <a href="https://drive.google.com/file/d/1DSBaBHLeaE5_-lyIRz9-EpdfBLmEF8PO/preview" target="_black">
-              <img src="https://docs.google.com/uc?id=11DqVBbRU5SkAaCGYHovOj6lNZ12HvfDx" className="w-75" />
+              <img src="https://docs.google.com/uc?id=11DqVBbRU5SkAaCGYHovOj6lNZ12HvfDx" className="w-75" alt="resume_icon" />
             </a>
           </div>
         </div>
