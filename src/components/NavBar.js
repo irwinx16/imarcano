@@ -15,7 +15,7 @@ export const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav nav-fill w-100">
               <li className="nav-item active">
-                <Link to="/resume" className="nav-link disable">
+                <Link to="/resume" className="nav-link">
                   Resume
                 </Link>
               </li>
