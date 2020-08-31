@@ -5,7 +5,7 @@ export const HomePage = () => {
   return (
     <div className="container">
       <div className="row mt-5">
-        <div className="col-3">
+        <div className="col-lg-3">
           <div className="card border-0">
             <img className="card-img-top" src="https://docs.google.com/uc?id=1XpU1FHq4qIZva_xaBYwFQ8tlhZVDP_Dx" alt="irwin-headshot" />
             <div className="card-body">
