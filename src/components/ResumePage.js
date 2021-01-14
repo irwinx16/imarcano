@@ -59,8 +59,8 @@ export const ResumePage = () => {
             <hr />
           </h3>
           <p>
-            Certified Web Developer with skills in Front-End Development using HTML, CSS, JavaScript, and React. Experience with object-oriented programming using Python Flask and Ruby on Rails; Cloud Computing knowledge with deploying applications
-            to AWS and Version Control. I’d love to explore new ways technology can be used to improve the world and collaborate with others to make it happen.
+            Self-motivated Developer experienced with a wide range of programming utilities and languages. Knowledgeable of backend and frontend development requirements. Collaborative problem-solver with an analytical mindset and excellent technical
+            abilities.
           </p>
 
           <h3 className="mt-5">
@@ -70,11 +70,12 @@ export const ResumePage = () => {
           <div id="ta_nu" className="mb-4">
             <p>
               <span className="font-weight-bold">Trilogy Education, ​</span>
-              <span className="font-italic">​Teaching Assistant - Web Development Bootcamp</span> <br />
+              <span className="font-italic">​Web Development Teaching Assistant</span> <br />
               <span className="font-weight-lighter small">Jun 2020 - Present | Chicago, IL.</span>
             </p>
             <ul>
-              <li>Assist students with activities and projects regarding front-end and back-end technologies</li>
+              <li>Troubleshoot student’s issues during classes.</li>
+              <li>Performed special demos of Version Control for collaboration and use of React Hooks to help students with their projects.</li>
             </ul>
           </div>
 
@@ -85,9 +86,10 @@ export const ResumePage = () => {
               <span className="font-weight-lighter small">Feb 2019 - Present | Chicago, IL.</span>
             </p>
             <ul>
-              <li>Developed full static websites in Squarespace; Implemented additional features using jQuery, and CSS according to client needs</li>
-              <li>Built mobile responsive website using HTML, CSS, Bootstrap, and Javascript. Knowledge of VueJs for Web Apps, deployment to Github, and use of Gulp for faster development</li>
-              <li>Development and maintenance of CMS, Websites and Web Applications using front-end technologies</li>
+              <li>Use jquery and other technologies to make line-code repairs based on requirements and understanding of the client’s needs.</li>
+              <li>Provide front-end website development using HTML, JavaScript, and Content Management Systems.</li>
+              <li>Perform web testing and troubleshooting before live deployment.</li>
+              <li>Research new technologies and software packages for use in website projects.</li>
             </ul>
           </div>
 
@@ -101,10 +103,10 @@ export const ResumePage = () => {
               <span className="font-weight-bold">Parking App ​|​ Check for Parking Restrictions</span>
             </p>
             <ul>
-              <li>Coded AJAX call to Chicago API and linked response to Google Maps</li>
-              <li>Wrote code to test JSON responses were correct</li>
-              <li>Used Version Control technologies for collaboration</li>
-              <li>Created and styled forms and logic for frontend templates</li>
+              <li>Wrote AJAX to Chicago API to be used with Google Maps.</li>
+              <li>Wrote code to validate JSON response.</li>
+              <li>Developed code collaboratively using Version Control.</li>
+              <li>Developed user interface with modern framework.</li>
             </ul>
             <p>
               <span className="font-weight-bold">Technologies used:</span> <br />
@@ -115,10 +117,10 @@ export const ResumePage = () => {
               <span className="font-weight-bold">EMS | Schedule and Manage your employees</span>
             </p>
             <ul>
-              <li>Built Backend RESTfull API controllers and models</li>
-              <li>Collaborated in creating and styling React frontend</li>
-              <li>Used Version Control to keep the project up to date</li>
-              <li>Created SQL database to store and retrieve data</li>
+              <li>Developed Backend RESTful API controllers and models.</li>
+              <li>Collaborated on creating and styling React frontend.</li>
+              <li>Used Version Control to keep the project up to date.</li>
+              <li>Created SQL database to store and retrieve data.</li>
             </ul>
             <p>
               <span className="font-weight-bold">Technologies used:</span> <br />
