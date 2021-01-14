@@ -17,16 +17,15 @@ export const ResumePage = () => {
             Skills
             <hr />
           </h3>
-          <p>
-            <ul className="list-unstyled">
-              <li>JavaScript, jQuery, React.js,</li>
-              <li>Node.js, Express.js, Python</li>
-              <li>Ajax, Json, SQL, Git, HTML,</li>
-              <li>CSS, Bootstrap, MVC, OOP,</li>
-              <li>Problem-Solving, Research,</li>
-              <li>Fluent in Spanish</li>
-            </ul>
-          </p>
+
+          <ul className="list-unstyled">
+            <li>JavaScript, jQuery, React.js,</li>
+            <li>Node.js, Express.js, Python</li>
+            <li>Ajax, Json, SQL, Git, HTML,</li>
+            <li>CSS, Bootstrap, MVC, OOP,</li>
+            <li>Problem-Solving, Research,</li>
+            <li>Fluent in Spanish</li>
+          </ul>
 
           <h3 className="mt-5">
             Education
@@ -49,6 +48,31 @@ export const ResumePage = () => {
             <span className="font-italic">Associates Degree</span> <br />
             <span>Rodolfo Loero Arismendi Institute of Technology</span> <br />
             <span className="font-weight-lighter small">Sep 2010 - May 2014</span>
+          </p>
+
+          <h3 className="mt-5">
+            Certifications
+            <hr />
+          </h3>
+
+          <p>
+            <span className="font-weight-bold">Learning webpack 4</span> <br />
+            <span className="font-weight-lighter small">LinkedIn - Oct 2020</span>
+          </p>
+
+          <p>
+            <span className="font-weight-bold">Learn Python 3 Course</span> <br />
+            <span className="font-weight-lighter small">Codecademy - Jul 2020</span>
+          </p>
+
+          <p>
+            <span className="font-weight-bold">Learning React.js</span> <br />
+            <span className="font-weight-lighter small">LinkedIn - Jul 2020</span>
+          </p>
+
+          <p>
+            <span className="font-weight-bold">Git Essential Training: The Basics</span> <br />
+            <span className="font-weight-lighter small">LinkedIn - May 2020</span>
           </p>
         </div>
 
