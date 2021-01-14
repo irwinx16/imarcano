@@ -19,12 +19,11 @@ export const ResumePage = () => {
           </h3>
           <p>
             <ul className="list-unstyled">
-              <li>Python, Flask, Ruby,</li>
-              <li>Rails, JavaScript, React,</li>
-              <li>NodeJs, ExpressJs, AWS,</li>
-              <li>PostgreSQL, Heroku, Git,</li>
-              <li>HTML, Bootstrap, CSS,</li>
-              <li>Problem-Solving, Research</li>
+              <li>JavaScript, jQuery, React.js,</li>
+              <li>Node.js, Express.js, Python</li>
+              <li>Ajax, Json, SQL, Git, HTML,</li>
+              <li>CSS, Bootstrap, MVC, OOP,</li>
+              <li>Problem-Solving, Research,</li>
               <li>Fluent in Spanish</li>
             </ul>
           </p>
@@ -34,21 +33,21 @@ export const ResumePage = () => {
             <hr />
           </h3>
           <p>
-            <span className="font-weight-bold">General Assembly</span> <br />
-            <span>Web Development Immersive</span> <br />
+            <span className="font-weight-bold">Web Development Immersive</span> <br />
             <span className="font-italic">Certificate</span> <br />
+            <span>General Assembly</span> <br />
             <span className="font-weight-lighter small">Mar 2018 - Jun 2018</span>
           </p>
           <p>
-            <span className="font-weight-bold">Harry S. Truman College</span> <br />
-            <span>Adult Education Coursework</span> <br />
+            <span className="font-weight-bold">Adult Education Coursework</span> <br />
             <span className="font-italic">Vocational</span> <br />
+            <span>Harry S. Truman College</span> <br />
             <span className="font-weight-lighter small">Nov 2016 - Dec 2017</span>
           </p>
           <p>
-            <span className="font-weight-bold">Rodolfo Loero Arismendi Institute of Technology</span> <br />
-            <span>Human Resources Management</span> <br />
+            <span className="font-weight-bold">Human Resources Management</span> <br />
             <span className="font-italic">Associates Degree</span> <br />
+            <span>Rodolfo Loero Arismendi Institute of Technology</span> <br />
             <span className="font-weight-lighter small">Sep 2010 - May 2014</span>
           </p>
         </div>
