@@ -12,6 +12,7 @@ export const HomePage = () => {
               <h2 className="card-title"> Irwin Marcano</h2>
               <hr />
               <p className="card-text h4">Web Developer</p>
+
               {/* Weather Information */}
               <img src="https://openweathermap.org/img/wn/04d.png" alt="Weather icon" height="100" width="100" />
               <p className="lead font-italic">Chicago | Broken Clouds</p>
@@ -30,8 +31,8 @@ export const HomePage = () => {
           <div className="jumbotron bg-transparent m-0 p-1">
             <blockquote className="blockquote">
               <p className="lead">
-                Certified Web Developer with skills in Front-End Development using HTML, CSS, JavaScript, and Vue. Experience with object-oriented programming using Python Flask and Ruby on Rails; Cloud Computing knowledge with deploying applications
-                to AWS and Version Control.
+                Self-motivated Developer experienced with a wide range of programming utilities and languages. Knowledgeable of backend and frontend development requirements. Collaborative problem-solver with an analytical mindset and excellent
+                technical abilities.
               </p>
               <Link to="/resume" className="btn btn-dark" role="button">
                 Learn more
@@ -52,7 +53,7 @@ export const HomePage = () => {
             <a href="mailto:irgranados16@gmail.com?subject=Interview Request - <POSITION>" target="_black">
               <img src="https://docs.google.com/uc?id=1XoFHduV6hfyasUBGMGYBNBQr6jXNnC_p" className="w-75" alt="email_icon" />
             </a>
-            <a href="https://drive.google.com/file/d/1DSBaBHLeaE5_-lyIRz9-EpdfBLmEF8PO/preview" target="_black">
+            <a href="https://drive.google.com/file/d/1dyVZ1NQLvEVGhtl7pDSJVvrahJo1GGUN/preview" target="_black">
               <img src="https://docs.google.com/uc?id=11DqVBbRU5SkAaCGYHovOj6lNZ12HvfDx" className="w-75" alt="resume_icon" />
             </a>
           </div>
