@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import { data } from "jquery";
 const APIKey = process.env.REACT_APP_WEATHER_API_KEY;
 
 export const HomePage = () => {
@@ -9,10 +10,15 @@ export const HomePage = () => {
     try {
       const weatherResponse = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=Chicago&appid=${APIKey}`);
 
-      console.log(weatherResponse.data.name);
+      const weatherInfo = {
+        name: weatherResponse.data.name,
+        desc: weatherResponse.data.weather[0].description,
+      };
+
+      console.log(weatherInfo.desc);
 
       //Setting state
-      setWeatherData("Weather");
+      setWeatherData(weatherInfo);
     } catch (err) {
       console.error(err.message);
     }
@@ -34,8 +40,11 @@ export const HomePage = () => {
               <p className="card-text h4">Web Developer</p>
 
               {/* Weather Information */}
+
               <img src="https://openweathermap.org/img/wn/04d.png" alt="Weather icon" height="100" width="100" />
-              <p className="lead font-italic">Chicago | Broken Clouds</p>
+              <p className="lead font-italic">
+                {weatherData.name} | {weatherData.desc}
+              </p>
               <p className="h1">
                 {" "}
                 <span>&#176;</span> F{" "}
