@@ -1,7 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
+const APIKey = process.env.REACT_APP_WEATHER_API_KEY;
 
 export const HomePage = () => {
+  const [weatherData, setWeatherData] = useState([]);
+  const getWeather = async () => {
+    try {
+      const weatherResponse = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=Chicago&appid=${APIKey}`);
+
+      console.log(weatherResponse.data.name);
+
+      //Setting state
+      setWeatherData("Weather");
+    } catch (err) {
+      console.error(err.message);
+    }
+  };
+
+  useEffect(() => {
+    getWeather();
+  }, []);
+
   return (
     <div className="container">
       <div className="row mt-5">
@@ -18,9 +38,9 @@ export const HomePage = () => {
               <p className="lead font-italic">Chicago | Broken Clouds</p>
               <p className="h1">
                 {" "}
-                77 <span>&#176;</span> F{" "}
+                <span>&#176;</span> F{" "}
                 <span className="lead">
-                  {" "}
+                  {" 77"}
                   25 <span>&#176;</span> C
                 </span>
               </p>
