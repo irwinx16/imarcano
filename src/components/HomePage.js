@@ -14,7 +14,6 @@ export const HomePage = () => {
         name: weatherResponse.data.name,
         desc: weatherResponse.data.weather[0].description,
       };
-
       console.log(weatherInfo.desc);
 
       //Setting state
