@@ -8,7 +8,10 @@ export const HomePage = () => {
   const [weatherData, setWeatherData] = useState([]);
   const getWeather = async () => {
     try {
-      const weatherResponse = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=Chicago&appid=${APIKey}`);
+      const locationResponse = await axios.get("http://ip-api.com/json/");
+      const cityName = locationResponse.data.city;
+
+      const weatherResponse = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${APIKey}`);
 
       const weatherInfo = {
         name: weatherResponse.data.name,
@@ -17,7 +20,7 @@ export const HomePage = () => {
         tempF: Math.floor((weatherResponse.data.main.temp - 273.15) * 1.8 + 32),
         tempC: Math.floor(weatherResponse.data.main.temp - 273.15),
       };
-      // console.log(weatherInfo.icon);
+      console.log(weatherResponse);
 
       //Setting state
       setWeatherData(weatherInfo);
