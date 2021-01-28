@@ -17,8 +17,7 @@ export const HomePage = () => {
         tempF: Math.floor((weatherResponse.data.main.temp - 273.15) * 1.8 + 32),
         tempC: Math.floor(weatherResponse.data.main.temp - 273.15),
       };
-
-      console.log(weatherResponse);
+      // console.log(weatherInfo.icon);
 
       //Setting state
       setWeatherData(weatherInfo);
@@ -41,8 +40,8 @@ export const HomePage = () => {
               <h2 className="card-title"> Irwin Marcano</h2>
               <hr />
               <p className="card-text h4">Web Developer</p>
-              {/* Weather Information */}
 
+              {/* Weather Information */}
               <img src={`https://openweathermap.org/img/wn/${weatherData.icon}.png`} alt="Weather icon" height="100" width="100" />
               <p className="lead font-italic">
                 {weatherData.name} | {weatherData.desc}
