@@ -13,8 +13,11 @@ export const HomePage = () => {
       const weatherInfo = {
         name: weatherResponse.data.name,
         desc: weatherResponse.data.weather[0].description,
+        tempF: Math.floor((weatherResponse.data.main.temp - 273.15) * 1.8 + 32),
+        tempC: Math.floor(weatherResponse.data.main.temp - 273.15),
       };
-      console.log(weatherInfo.desc);
+
+      console.log(weatherResponse);
 
       //Setting state
       setWeatherData(weatherInfo);
@@ -39,18 +42,13 @@ export const HomePage = () => {
               <p className="card-text h4">Web Developer</p>
 
               {/* Weather Information */}
-
               <img src="https://openweathermap.org/img/wn/04d.png" alt="Weather icon" height="100" width="100" />
               <p className="lead font-italic">
                 {weatherData.name} | {weatherData.desc}
               </p>
               <p className="h1">
-                {" "}
-                <span>&#176;</span> F{" "}
-                <span className="lead">
-                  {" 77"}
-                  25 <span>&#176;</span> C
-                </span>
+                <span> {weatherData.tempF} &#176;F</span>
+                <span className="lead"> {weatherData.tempC} &#176;C</span>
               </p>
             </div>
           </div>
