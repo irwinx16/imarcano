@@ -7,7 +7,7 @@ export const NavBar = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <Link to="/" className="navbar-brand">
-            <img src="https://docs.google.com/uc?id=1Gs9blxw2z_E1jdeW7b05LJrDar0eZ5JC" width="30" height="30" alt="IM Nav Logo" />
+            <h1 className="text-monospace m-0 p-0">I M</h1>
           </Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
