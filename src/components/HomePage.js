@@ -38,7 +38,7 @@ export const HomePage = () => {
       <div className="row mt-5">
         <div className="col-lg-3">
           <div className="card border-0">
-            <img className="card-img-top" src="https://docs.google.com/uc?id=1XpU1FHq4qIZva_xaBYwFQ8tlhZVDP_Dx" alt="irwin-headshot" />
+            <img className="card-img-top" src="https://i.imgur.com/6nWHsPp.jpg" alt="irwin-headshot" />
             <div className="card-body">
               <h2 className="card-title"> Irwin Marcano</h2>
               <hr />
@@ -74,16 +74,16 @@ export const HomePage = () => {
 
           <div className="row justify-content-around">
             <a href="https://github.com/irwinx16" target="_black">
-              <img src="https://docs.google.com/uc?id=1qenoe8B7YbccuDpLAmO312lxnVhy21s1" className="w-75" alt="github_icon" />
+              <img src="https://i.imgur.com/0Vbe5RF.png" className="w-75" alt="github_icon" />
             </a>
             <a href="https://www.linkedin.com/in/irwinx16/" target="_black">
-              <img src="https://docs.google.com/uc?id=1DKGdcSWxeKopkfW_jeppr8xhrPbQW5BO" className="w-75" alt="linkedin_icon" />
+              <img src="https://i.imgur.com/n9xhCX4.png" className="w-75" alt="linkedin_icon" />
             </a>
             <a href="mailto:irgranados16@gmail.com?subject=Interview Request - <POSITION>" target="_black">
-              <img src="https://docs.google.com/uc?id=1XoFHduV6hfyasUBGMGYBNBQr6jXNnC_p" className="w-75" alt="email_icon" />
+              <img src="https://i.imgur.com/TYE6LWC.png" className="w-75" alt="email_icon" />
             </a>
             <a href="https://drive.google.com/file/d/1dyVZ1NQLvEVGhtl7pDSJVvrahJo1GGUN/preview" target="_black">
-              <img src="https://docs.google.com/uc?id=11DqVBbRU5SkAaCGYHovOj6lNZ12HvfDx" className="w-75" alt="resume_icon" />
+              <img src="https://i.imgur.com/zPMpf6Y.png" className="w-75" alt="resume_icon" />
             </a>
           </div>
         </div>
