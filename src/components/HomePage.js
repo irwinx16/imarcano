@@ -6,7 +6,6 @@ export const HomePage = () => {
   
   return (
     <div className="container">
-	<Weather />
       <div className="row mt-5">
         <div className="col-lg-3">
           <div className="card border-0">
@@ -15,6 +14,7 @@ export const HomePage = () => {
               <h2 className="card-title"> Irwin Marcano</h2>
               <hr />
               <p className="card-text h4">Web Developer</p>
+			  <Weather />
             </div>
           </div>
         </div>
