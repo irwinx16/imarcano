@@ -1,40 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
-import { data } from "jquery";
-const APIKey = process.env.REACT_APP_WEATHER_API_KEY;
+import { Weather } from "./Weather";
 
 export const HomePage = () => {
-  const [weatherData, setWeatherData] = useState([]);
-  const getWeather = async () => {
-    try {
-      const locationResponse = await axios.get("http://ip-api.com/json/");
-      const cityName = locationResponse.data.city;
-
-      const weatherResponse = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${APIKey}`);
-
-      const weatherInfo = {
-        name: weatherResponse.data.name,
-        desc: weatherResponse.data.weather[0].description,
-        icon: weatherResponse.data.weather[0].icon,
-        tempF: Math.floor((weatherResponse.data.main.temp - 273.15) * 1.8 + 32),
-        tempC: Math.floor(weatherResponse.data.main.temp - 273.15),
-      };
-      console.log(weatherResponse);
-
-      //Setting state
-      setWeatherData(weatherInfo);
-    } catch (err) {
-      console.error(err.message);
-    }
-  };
-
-  useEffect(() => {
-    getWeather();
-  }, []);
-
+  
   return (
     <div className="container">
+	<Weather />
       <div className="row mt-5">
         <div className="col-lg-3">
           <div className="card border-0">
@@ -43,16 +15,6 @@ export const HomePage = () => {
               <h2 className="card-title"> Irwin Marcano</h2>
               <hr />
               <p className="card-text h4">Web Developer</p>
-
-              {/* Weather Information */}
-              <img src={`https://openweathermap.org/img/wn/${weatherData.icon}.png`} alt="Weather icon" height="100" width="100" />
-              <p className="lead font-italic">
-                {weatherData.name} | {weatherData.desc}
-              </p>
-              <p className="h1">
-                <span> {weatherData.tempF} &#176;F</span>
-                <span className="lead"> {weatherData.tempC} &#176;C</span>
-              </p>
             </div>
           </div>
         </div>
