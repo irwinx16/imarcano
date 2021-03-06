@@ -4,6 +4,7 @@ const APIKey = process.env.REACT_APP_WEATHER_API_KEY;
 
 export const Weather = () => {
   const [weatherData, setWeatherData] = useState([]);
+  const [loading, setLoding] = useState(true);
 
   useEffect(() => {
     getDataRequest();
@@ -25,23 +26,27 @@ export const Weather = () => {
       };
       //Setting state
       setWeatherData(weatherDataResp);
+      setLoding(false);
     } catch (err) {
       console.error(err.message);
     }
   };
-  console.log(weatherData);
 
   return (
     <div>
-      {/* Weather Information */}
-      <img src={`https://openweathermap.org/img/wn/${weatherData.icon}.png`} alt="Weather icon" height="100" width="100" />
-      <p className="lead font-italic">
-        {weatherData.name} | {weatherData.desc}
-      </p>
-      <p className="h1">
-        <span> {weatherData.tempF} &#176;F</span>
-        <span className="lead"> {weatherData.tempC} &#176;C</span>
-      </p>
+      {loading && <p>Loading...</p>}
+      {!loading && (
+        <>
+          <img src={`https://openweathermap.org/img/wn/${weatherData.icon}.png`} alt="Weather icon" height="100" width="100" />
+          <p className="lead font-italic">
+            {weatherData.name} | {weatherData.desc}
+          </p>
+          <p className="h1">
+            <span> {weatherData.tempF} &#176;F</span>
+            <span className="lead"> {weatherData.tempC} &#176;C</span>
+          </p>
+        </>
+      )}
     </div>
   );
 };
