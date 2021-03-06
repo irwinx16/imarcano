@@ -37,7 +37,7 @@ export const HomePage = () => {
           <div className="row justify-content-around">
             <div className="mb-3">
               <a href="https://github.com/irwinx16" target="_black">
-                <i className="fab fa-github"></i>
+                <i className="fab fa-github fa-7x text-dark"></i>
                 {/* <img src="https://i.imgur.com/0Vbe5RF.png" alt="github_icon" /> */}
               </a>
             </div>
