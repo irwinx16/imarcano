@@ -81,10 +81,7 @@ export const ResumePage = () => {
             Summary
             <hr />
           </h3>
-          <p>
-            Self-motivated Developer experienced with a wide range of programming utilities and languages. Knowledgeable of backend and frontend development requirements. Collaborative problem-solver with an analytical mindset and excellent technical
-            abilities.
-          </p>
+          <p>Self-motivated Developer experienced with a wide range of programming utilities and languages. Knowledgeable of backend and frontend development requirements. Collaborative problem-solver with an analytical mindset and excellent technical abilities.</p>
 
           <h3 className="mt-5">
             Experience
