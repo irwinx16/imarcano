@@ -12,7 +12,7 @@ export const Weather = () => {
 
   const getDataRequest = async () => {
     try {
-      const locationResp = await axios.get("http://ip-api.com/json/");
+      const locationResp = await axios.get("https://ipapi.co/json/");
       const cityName = locationResp.data.city;
 
       const weatherResp = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${APIKey}`);
