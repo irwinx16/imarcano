@@ -11,18 +11,19 @@ export const HomePage = () => {
             <img src="https://i.imgur.com/6nWHsPp.jpg" className="card-img-top" alt="headshotpicture" />
             <div className="card-body px-0">
               <h2 className="card-title">Irwin Marcano</h2>
-              <h5 className="card-text">Web Developer</h5>
+              <h5 className="card-text">Support Developer</h5>
+              <h6 className="card-text">@ Dealer Inspire</h6>
               <hr />
             </div>
           </div>
         </div>
 
         <div className="col-md-8 offset-md-1">
-          <p className="lead">Self-motivated Developer experienced with a wide range of programming utilities and languages. Knowledgeable of backend and frontend development requirements. Collaborative problem-solver with an analytical mindset and excellent technical abilities.</p>
+          <p className="lead">Developer experienced with a wide range of programming utilities and languages. Knowledgeable of backend and frontend development requirements. Collaborative problem-solver with an analytical mindset and excellent technical abilities.</p>
 
-          <Link to="/resume" className="btn btn-dark" role="button">
+          {/* <Link to="/resume" className="btn btn-dark" role="button">
             Learn more
-          </Link>
+          </Link> */}
           <hr />
         </div>
       </div>
@@ -37,27 +38,26 @@ export const HomePage = () => {
           <div className="row justify-content-around">
             <div className="mb-3">
               <a href="https://github.com/irwinx16" target="_black">
-                <i className="fab fa-github fa-7x text-dark"></i>
-                {/* <img src="https://i.imgur.com/0Vbe5RF.png" alt="github_icon" /> */}
+                <i className="fab fa-github fa-6x text-dark"></i>
               </a>
             </div>
             <div className="mb-3">
               <a href="https://www.linkedin.com/in/irwinx16/" target="_black">
-                <img src="https://i.imgur.com/n9xhCX4.png" alt="linkedin_icon" />
+                <i class="fab fa-linkedin-in fa-6x text-dark"></i>
               </a>
             </div>
 
             <div className="mb-3">
-              <a href="mailto:irgranados16@gmail.com?subject=Interview Request - <POSITION>" target="_black">
-                <img src="https://i.imgur.com/TYE6LWC.png" alt="email_icon" />
+              <a href="mailto:irgranados16@gmail.com?subject=imarcano.com - " target="_black">
+                <i class="far fa-envelope fa-6x text-dark"></i>
               </a>
             </div>
 
-            <div className="mb-3">
+            {/* <div className="mb-3">
               <a href="https://drive.google.com/file/d/1dyVZ1NQLvEVGhtl7pDSJVvrahJo1GGUN/preview" target="_black">
-                <img src="https://i.imgur.com/zPMpf6Y.png" alt="resume_icon" />
+                <i class="far fa-file-pdf fa-7x text-dark"></i>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
