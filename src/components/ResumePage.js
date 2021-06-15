@@ -18,14 +18,14 @@ export const ResumePage = () => {
             <hr />
           </h3>
 
-          <ul className="list-unstyled">
+          {/* <ul className="list-unstyled">
             <li>JavaScript, jQuery, React.js,</li>
             <li>Node.js, Express.js, Python</li>
             <li>Ajax, Json, SQL, Git, HTML,</li>
             <li>CSS, Bootstrap, MVC, OOP,</li>
             <li>Problem-Solving, Research,</li>
             <li>Fluent in Spanish</li>
-          </ul>
+          </ul> */}
 
           <h3 className="mt-5">
             Education
