@@ -19,6 +19,13 @@ export const NavBar = () => {
                   Resume
                 </Link>
               </li> */}
+
+              <li className="nav-item">
+                <Link to="/resources" className="nav-link">
+                  Resources
+                </Link>
+              </li>
+
               <li className="nav-item">
                 <Link to="/contact" className="nav-link disabled">
                   Contact

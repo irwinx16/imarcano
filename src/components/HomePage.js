@@ -43,13 +43,13 @@ export const HomePage = () => {
             </div>
             <div className="mb-3">
               <a href="https://www.linkedin.com/in/irwinx16/" target="_black">
-                <i class="fab fa-linkedin-in fa-6x text-dark"></i>
+                <i className="fab fa-linkedin-in fa-6x text-dark"></i>
               </a>
             </div>
 
             <div className="mb-3">
               <a href="mailto:irgranados16@gmail.com?subject=imarcano.com - " target="_black">
-                <i class="far fa-envelope fa-6x text-dark"></i>
+                <i className="far fa-envelope fa-6x text-dark"></i>
               </a>
             </div>
 
