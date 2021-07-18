@@ -15,6 +15,7 @@ export const Resources = () => {
       <div className="row mt-5">
         <div className="col-sm-12">
           <div id="accordion">
+            {/* --------Card Block---------- */}
             <div className="card">
               <div className="card-header" id="headingOne">
                 <h5 className="mb-0">
@@ -31,6 +32,7 @@ export const Resources = () => {
               </div>
             </div>
 
+            {/* --------Card Block---------- */}
             <div className="card">
               <div className="card-header" id="headingTwo">
                 <h5 className="mb-0">
@@ -48,6 +50,7 @@ export const Resources = () => {
               </div>
             </div>
 
+            {/* --------Card Block---------- */}
             <div className="card">
               <div className="card-header" id="headingThree">
                 <h5 className="mb-0">
@@ -64,6 +67,7 @@ export const Resources = () => {
                 </div>
               </div>
             </div>
+            {/* --------Card Block---------- */}
           </div>
         </div>
       </div>
