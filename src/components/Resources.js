@@ -33,7 +33,7 @@ export const Resources = () => {
             </div>
 
             {/* --------Card Block---------- */}
-            <div className="card">
+            {/* <div className="card">
               <div className="card-header" id="headingTwo">
                 <h5 className="mb-0">
                   <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -48,10 +48,10 @@ export const Resources = () => {
                   them accusamus labore sustainable VHS.
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* --------Card Block---------- */}
-            <div className="card">
+            {/* <div className="card">
               <div className="card-header" id="headingThree">
                 <h5 className="mb-0">
                   <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -66,7 +66,7 @@ export const Resources = () => {
                   them accusamus labore sustainable VHS.
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* --------Card Block---------- */}
           </div>
         </div>
