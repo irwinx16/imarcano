@@ -2,7 +2,7 @@
 
 ---
 
-### Setting up your Zoom Client\
+### Setting up your Zoom Client
 
 - Visit [zoom.us](https://zoom.us/signup) to create an account - enter your email address - and follow the steps on the Zoom Activation email received.
 
