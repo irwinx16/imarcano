@@ -8,5 +8,5 @@
 
 - Edit your Profile to add **Name** and **Picture** | **_Important_**.
 
-![Slack Home](/slackImg/slackHome.png)\
-![Slack Home](/slackImg/slackProfile.png)
+![Slack Home](/img/slackHome.png)\
+![Slack Home](/img/slackProfile.png)
